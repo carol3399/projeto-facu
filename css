@@ -10,7 +10,7 @@ body {
     background: linear-gradient(to right, #7e0000, #a70000);
     color: #fff;
     padding: 10px 20px;
-    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
 }
 
 .brand {
@@ -31,7 +31,7 @@ body {
 }
 
 .menuItem:hover {
-    color: #000000;
+    color: #ffffff;
 }
 
 .ctaButton {
@@ -46,7 +46,7 @@ body {
 }
 
 .ctaButton:hover {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .video-container {
@@ -81,7 +81,7 @@ body {
     color: white;
     text-align: left; /* Alinha o texto à esquerda */
     padding-left: 25px; /* Adiciona um pouco de espaçamento à esquerda */
-    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    background: rgba(255, 255, 255, 0.5); /* Fundo semi-transparente */
     z-index: 1;
 }
 
@@ -110,7 +110,7 @@ body {
 	display: grid;
 	place-content: center;
 	min-height: 100vh;
-	background: #000;
+	background: #000000;
 }
 .container {
 	position: relative;
@@ -171,7 +171,7 @@ body {
 	content: attr(data-text);
 	position: absolute;
 	bottom: 20px;
-	background: #000;
+	background: #000000;
 	color: #fff;
 	padding: 10px 10px 10px 14px;
 	letter-spacing: 4px;
@@ -179,6 +179,52 @@ body {
 	transform: translateY(60px);
 	opacity: 0;
 	transition: all 400ms;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+.game-offer {
+    border: 1px solid #2b2a2a;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: #333;
+    text-align: center;
+}
+.game-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.platform, .discount, .offer-end {
+    font-weight: bold;
+}
+.price {
+    color: #4CAF50;
+    font-size: 1.2em;
+}
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+}
+.add-to-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+.game-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 .box:hover::after {
@@ -227,5 +273,49 @@ h1 {
 
 p {
 	font-size: 24px;
-	margin: 10px 0;
+	margin: 15px 0;
+}
+ /* parte da explicaçao do spider */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.main-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.features-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.feature {
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #333;
+    text-align: center;
+    width: 300px;
+}
+.feature-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+.feature-description {
+    font-size: 1.1em;
+}
+.feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
